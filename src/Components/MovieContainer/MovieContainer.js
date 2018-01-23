@@ -24,8 +24,9 @@ render(){
   const movies = this.state.movieList.map((movie, index) => {
     return (
       <div key={index} className="movie-cards">
-      <h1> {movie.original_title} </h1>
-       <img style={{height: 200, width: 200}} src={ imgUrl + movie.backdrop_path}/>
+       <img style={{height: 250, width: 320}} src={ imgUrl + movie.backdrop_path}/>
+       <h2> {movie.original_title} </h2>
+       <h2> Rating: {movie.vote_average}/10 </h2>
       </div>
     )
   })

@@ -7,7 +7,15 @@
 }
 
 .movie-cards{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
   padding: 2px 16px;
   font-size: 10px;
+  border-radius: 5px;
+  margin: 2%;
+  background-color: #DCDCDC;
+  opacity: 1.0;
+}
+
+.movie-cards:hover {
+    opacity: 0.5;
 }

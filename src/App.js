@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
 import MovieContainer from './Components/MovieContainer/MovieContainer.js'
+import Header from './Components/Header/Header.js';
 
 class App extends Component {
 
@@ -10,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <h1> Movies </h1>
+      <Header />
       <MovieContainer />
       </div>
     );
